@@ -67,7 +67,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>main.java.me.dio.santanderbootcamp2023.SantanderBootcamp2023Application.java</mainClass>
+              <mainClass>src.main.java.me.dio.santanderbootcamp2023.SantanderBootcamp2023Application.java</mainClass>
             </manifest>
           </archive>
         </configuration>
