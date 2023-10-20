@@ -49,16 +49,19 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-<!-- 
+
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+                	<mainClass>me.dio.santanderbootcamp2023.SantanderBootcamp2023Application</mainClass>
+            	</configuration>  
 			</plugin>
 		</plugins>
-	</build> -->
-	<build>
+	</build>
+	<!-- <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -73,6 +76,6 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+  </build> -->
 
 </project>
