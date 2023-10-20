@@ -31,7 +31,7 @@ public class UserController {
     }
 
     @PostMapping
-    public ResponseEntity<User> findById(@RequestBody User userToCreate) {
+    public ResponseEntity<User> create(@RequestBody User userToCreate) {
         var userCreated = userService.create(userToCreate);
         URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
                 .buildAndExpand(userCreated.getId()).toUri();
